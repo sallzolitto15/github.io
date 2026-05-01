@@ -5,31 +5,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Space Jam Fan Zone 🏀</title>
 
-  <!-- ============================================================
-       QUALTRICS DXA — Session Replay, Rage Clicks & Heatmaps
-       Replace the src URL and project ID with your actual values
-       ============================================================ -->
-  <script type="text/javascript">
-    // PLACEHOLDER: Replace with your actual Qualtrics DXA snippet
-    // Typically looks like:
-    // (function(){var g=function(e,h,f,g){ ... }
-    // g(window,document,"script","https://eum.qualtrics.com/k/YOUR_PROJECT_ID/record.js");
-    window.__QUALTRICS_DXA_PLACEHOLDER__ = true;
-    console.log("[Qualtrics DXA] ✅ Placeholder active — replace with real snippet");
-  </script>
+  <!--BEGIN QUALTRICS WEBSITE FEEDBACK SNIPPET-->
 
-  <!-- ============================================================
-       QUALTRICS INTERCEPT (Website Feedback / Site Intercept)
-       Replace with your deployment code from Qualtrics
-       ============================================================ -->
-  <script type="text/javascript">
-    // PLACEHOLDER: Replace with your Qualtrics Intercept deployment code
-    // Typically looks like:
-    // QSI.config = { ... };
-    // (function(){var b="QSI_S_YOUR_INTERCEPT_ID", ... })();
-    window.__QUALTRICS_INTERCEPT_PLACEHOLDER__ = true;
-    console.log("[Qualtrics Intercept] ✅ Placeholder active — replace with real snippet");
-  </script>
+<script type='text/javascript'>
+
+(function(){var g=function(g){
+
+this.go=function(){var a=document.createElement("script");a.type="text/javascript";a.src=g;document.body&&document.body.appendChild(a)};
+
+this.start=function(){var t=this;"complete"!==document.readyState?window.addEventListener?window.addEventListener("load",function(){t.go()},!1):window.attachEvent&&window.attachEvent("onload",function(){t.go()}):t.go()};};
+
+try{(new g("https://zn3rwu5knx2dqx04k-ugamsandbox.siteintercept.qualtrics.com/SIE/?Q_ZID=ZN_3Rwu5knX2Dqx04k")).start()}catch(i){}})();
+
+</script><div id='ZN_3Rwu5knX2Dqx04k'><!--DO NOT REMOVE-CONTENTS PLACED HERE--></div>
+
+<!--END WEBSITE FEEDBACK SNIPPET-->
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
